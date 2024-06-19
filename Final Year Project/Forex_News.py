@@ -1,10 +1,8 @@
 import requests
 
-key = 'W3i4Rs1x.86lRS3JQ1JTBnVz5xNEdVK2b2kX4w4ZL'
-
 headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer {key}'
+        'Authorization': f'Bearer {API-TOKEN}'
     }
 response = requests.get('https://www.jblanked.com/news/api/list/',headers=headers)
 
