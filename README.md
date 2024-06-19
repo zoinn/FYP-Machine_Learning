@@ -1,7 +1,7 @@
 # Using Machine Learning To Find Patterns In The Forex Market
 I utilized Python and a Recurrent Neural Network with LSTM to predict forex market movements
 # How it works
-I we fed it data to be able to predict movments in the market. In this case I predict directionality and through this we got an accuracy of 84%
+Trained against from previous years of the forex market to be able to predict movments in the market. In this case I predict directionality and through this we got an accuracy of 84%
 # What I Learned and Improved on
 - How to program a recurrent neural network with LSTM in Pytorch
 - Machine Learning with research to find best ML for my case (RNN with LSTM)
