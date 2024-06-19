@@ -9,7 +9,7 @@ def get_forex_data_CSV(startDate = '2023-01-01',ticker = 'eurusd',fileName = 'fo
         'format=csv'
     }
     requestResponse = requests.get('https://api.tiingo.com/tiingo/fx/'+ticker+'/prices?startDate='+startDate+'&resampleFreq'
-                                   '=1hour&token=da05c673075723c76cf9f7d2157cd92331c447cf', headers=headers)
+                                   '=1hour&token={API-TOKEN}', headers=headers)
     data_to_file_CSV(requestResponse.text,fileName)
 
 def data_to_file_CSV(csvData, fileName):
